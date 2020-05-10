@@ -1,0 +1,38 @@
+.btn {
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: $primary-color;
+  text-decoration: underline;
+}
+
+.btn--delete {
+  position: absolute;
+  top: 0;
+  right: -2.4em;
+
+  background-image: url(../images/icon-remove.svg);
+  background-color: $primary-color;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1rem;
+  height: 2rem;
+  width: 2rem;
+
+  border-radius: 0 0.3em 0.3em 0;
+  cursor: pointer;
+}
+
+.btn--delete:hover {
+  background-color: $very-dark-grayish-cyan;
+}
+
+@include screen-l {
+  .btn--delete {
+    right: -3em;
+  }
+}

@@ -1,0 +1,55 @@
+html {
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  line-height: 1.333em;
+}
+
+.filters-list {
+  color: $primary-color;
+  font-weight: 700;
+
+  &__item {
+    font-size: 0.8rem;
+  }
+}
+
+.btn {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  color: $dark-grayish-cyan;
+}
+
+.job-details {
+  &__company-name {
+    color: $primary-color;
+    font-weight: 700;
+  }
+
+  &__label {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    color: white;
+  }
+
+  &__job-title {
+    font-size: 1rem;
+  }
+
+  &__info-list {
+    font-size: 0.8rem;
+    color: $dark-grayish-cyan;
+  }
+}
+
+@include screen-l {
+  html {
+    font-size: 18px;
+    line-height: 1.6rem;
+  }
+
+  .filters-list {
+    &__item {
+      font-size: 0.666rem;
+    }
+  }
+}

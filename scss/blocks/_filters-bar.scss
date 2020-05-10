@@ -1,0 +1,24 @@
+.filters-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  background-color: white;
+  padding: 0.9em 1.6em;
+  border-radius: 0.3em;
+  margin-bottom: 3.667em;
+  box-shadow: 0px 10px 15px -2px rgba(91, 164, 164, 0.2);
+
+  opacity: 1;
+}
+
+.filters-bar--hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@include screen-l {
+  .filters-bar {
+    padding: 0.6em 2em;
+  }
+}

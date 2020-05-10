@@ -1,0 +1,17 @@
+/* utilities */
+@import "utilities/veribals";
+@import "utilities/mixin";
+
+/* base */
+@import "base/reset";
+@import "base/typography";
+
+/* blocks */
+@import "blocks/body";
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/filters-bar";
+@import "blocks/btn";
+@import "blocks/card";
+@import "blocks/job-details";
+@import "blocks/filters-list";
