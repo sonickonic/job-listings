@@ -10,15 +10,6 @@
       href="./images/favicon-32x32.png"
     />
     <title>Frontend Mentor | Job Listings</title>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
     <link
       href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap"
       rel="stylesheet"
@@ -28,59 +19,9 @@
 
   <body>
     <header class="header"></header>
-
     <main class="main">
-      <div class="filters-bar">
-        <ul class="filters-list">
-          <li class="filters-list__item filters-list__item--clear">Frontend</li>
-          <li class="filters-list__item filters-list__item--clear">CSS</li>
-          <li class="filters-list__item filters-list__item--clear">
-            JavaScript
-          </li>
-        </ul>
-        <button class="btn" type="submit">Clear</button>
-      </div>
-
-      <div class="card card--featured">
-        <img
-          class="card__logo"
-          src="./images/photosnap.svg"
-          alt="Company logo"
-        />
-
-        <div class="job-details">
-          <span class="job-details__company-name">Photosnap</span>
-          <span class="job-details__label">New!</span>
-          <span class="job-details__label job-details__label--dark"
-            >Featured</span
-          >
-          <h3 class="job-details__job-title">Senior Frontend Developer</h3>
-          <ul class="job-details__info-list">
-            <li class="job-details__info-item">1d ago</li>
-            <li class="job-details__info-item job-details__info-item--bullet">
-              Full Time
-            </li>
-            <li class="job-details__info-item job-details__info-item--bullet">
-              USA only
-            </li>
-          </ul>
-        </div>
-
-        <ul class="filters-list">
-          <li class="filters-list__item">Frontend</li>
-          <li class="filters-list__item">Senior</li>
-          <li class="filters-list__item">HTML</li>
-          <li class="filters-list__item">CSS</li>
-          <li class="filters-list__item">JavaScript</li>
-        </ul>
-      </div>
+      <div class="main__container"></div>
     </main>
-
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+    <script src="js/utils/jobFilter.js"></script>
   </body>
 </html>
