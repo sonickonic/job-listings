@@ -1,5 +1,5 @@
 .header {
-  background-image: url(../images/bg-header-mobile.svg);
+  background-image: url(../../images/bg-header-mobile.svg);
   background-color: $primary-color;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -8,7 +8,7 @@
 
 @include screen-l {
   .header {
-    background-image: url(../images/bg-header-desktop.svg);
+    background-image: url(../../images/bg-header-desktop.svg);
     height: 8.666em;
   }
 }
